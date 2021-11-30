@@ -7,7 +7,7 @@ export const APP_REGISTRATION_CLIENT_ID = '708ca2df-3676-4d8d-8d18-5afba7df9cba'
 export const APPLICATION_INSIGHTS_INSTRUMENTATION_KEY = '';
 
 // API information
-export const COSMOTECH_API_SCOPE = 'http://api.acoe-cosmotech.demo.sas.com/platform';
+export const COSMOTECH_API_SCOPE = 'https://api.acoe-cosmotech.demo.sas.com/platform';
 export const DEFAULT_BASE_PATH = 'https://api.acoe-cosmotech.demo.sas.com';
 
 // Cosmo solution identifiers
