@@ -130,6 +130,6 @@ export const MASS_ACTION_LEVER_PARAM = {
   id: 'mass_lever_excel_file',
   description: 'Mass action lever dataset part',
   varType: '%DATASETID%',
-  connectorId: 'C-XPv4LBVGAL',
+  connectorId: 'c-6wdww33xkd5d',
   defaultFileTypeFilter: '.xlsx,.zip'
 };
