@@ -1,0 +1,426 @@
+{
+  "commoncomponents": {
+    "button": {
+      "login": {
+        "dev": {
+          "account": {
+            "login": "Se connecter en mode Dev"
+          }
+        },
+        "regular": {
+          "login": "Se connecter"
+        }
+      },
+      "run": {
+        "protocol": {
+          "text": "Lancer le protocole"
+        },
+        "scenario": {
+          "text": "Lancer le scénario"
+        }
+      },
+      "change": {
+        "language": "Changer de langue"
+      },
+      "create": {
+        "scenario": {
+          "label": "Créer un scénario",
+          "tooltip": {
+            "disabled": "Veuillez sauver ou annuler les modifications en cours avant de créer un nouveau scénario"
+          }
+        }
+      },
+      "scenario": {
+        "parameters": {
+          "discard": "Abandonner les modifications",
+          "edit": "Éditer",
+          "launch": "Lancer le Scénario",
+          "update" : {
+            "launch" : "Mettre à jour et lancer le Scénario"
+          }
+        }
+      }
+    },
+    "card": {
+      "protocol": {
+        "parameters": {
+          "text": {
+            "driver": {
+              "name": "Nom du driver"
+            },
+            "population": {
+              "size": "Taille de population"
+            },
+            "total": {
+              "simulations": "Nombre de simulations"
+            }
+          },
+          "title": {
+            "protocol": {
+              "parameters": "Parametres du protocole"
+            }
+          }
+        }
+      },
+      "simulation": {
+        "parameters": {
+          "text": {
+            "alert": {
+              "simulation": {
+                "launched": "Simulation lancée avec succès"
+              }
+            },
+            "engine": {
+              "name": "Nom du simulator"
+            },
+            "simulation": {
+              "name": "Nom de la simulation"
+            }
+          },
+          "title": {
+            "simulation": {
+              "parameters": "Parametres du simulator"
+            }
+          }
+        }
+      }
+    },
+    "iframe": {
+      "scenario": {
+        "results": {
+          "card": {
+            "title": "Resultats"
+          },
+          "iframe": {
+            "title": "Resultats simulation supply chain"
+          },
+          "label": {
+            "no": {
+              "result": "Pas de résultats pour ce scénario"
+            },
+            "error": "Une erreur est survenue lors de l'exécution de ce scénario",
+            "running": "Scénario en cours d'exécution...",
+            "uninitialized": "Le scénario n'a pas encore été lancé"
+          },
+          "button": {
+            "downloadlogs": "Télécharger les logs",
+            "refresh": "Rafraîchir (sera ensuite indisponible pendant 15 secondes)"
+          }
+        },
+        "noscenario": {
+          "title": "Aucun scénario n'a encore été créé",
+          "label": "Vous pouvez créer un scénario en cliquant sur"
+        },
+        "error": {
+          "unknown": {
+            "details": "Une erreur est survenue lors de la récupération des informations des rapports PowerBI",
+            "label": "Erreur inconnue"
+          }
+        }
+      }
+    },
+    "scenariomanager": {
+      "treelist": {
+        "node": {
+          "dataset": "Dataset",
+          "dataset_plural": "Datasets",
+          "status": {
+            "label": "Statut",
+            "successful": "Succès",
+            "failed": "Erreur",
+            "created": "Créé"
+          },
+          "text": {
+            "search": "Rechercher"
+          }
+        },
+        "search": {
+          "info": "{{count}} scénario trouvé",
+          "info_plural": "{{count}} scénarios trouvés"
+        }
+      }
+    },
+    "tab": {
+      "scenario": {
+        "parameters": {
+          "time_configuration": "Paramètres temporels",
+          "mass_action_lever": "Levier d'action global",
+          "optimization_configuration": "Réglages de l'optimisation",
+          "uncertainty_configuration": "Analyse d'incertitude",
+          "behavior_configuration": "Comportement du modèle"
+        }
+      }
+    },
+    "text": {
+      "application": {
+        "title": "Cosmo Tech Supply Chain"
+      },
+      "contact": {
+        "get": {
+          "account": "Vous n'avez pas de compte ?"
+        }
+      },
+      "link": {
+        "cosmotech": "Veuillez contacter Cosmo Tech"
+      },
+      "no": {
+        "permission": "Vous n'avez pas les droits suffisants pour accéder à cette page."
+      }
+    },
+    "dialog": {
+      "confirm": {
+        "delete": {
+          "button": {
+            "cancel": "Annuler",
+            "confirm": "Confirmer"
+          },
+          "description": "Cette opération est irréversible. Les datasets ne seront pas supprimés, mais les paramètres du scénario seront perdus. Si le scénario a des enfants, ils seront remontés d'un niveau dans la hiérarchie des scénarios.",
+          "title": "Confirmer la suppression du scénario ?"
+        }
+      },
+      "create": {
+        "scenario": {
+          "text": {
+            "title": "Créer un scénario"
+          },
+          "input" : {
+            "scenarioname": {
+              "label": "Nom du scénario",
+              "error": {
+                "label" : "Erreur",
+                "empty" : "Le nom du scénario ne doit pas être vide",
+                "existing": "Le nom du scénario existe déjà",
+                "forbiddenchars": "Le nom du scenario doit commencer par une lettre, et ne peut contenir que des lettres, chiffres, espaces, underscores et tirets."
+              }
+            }
+          },
+          "dropdown" : {
+            "parentscenario" : {
+              "label" : "Scénario parent",
+              "placeholder": "Sélectionner un scénario parent"
+            },
+            "scenariotype" : {
+              "label" : "Type de scénario",
+              "placeholder": "Sélectionner un type de scénario"
+            },
+            "dataset" : {
+              "label" : "Dataset",
+              "placeholder": "Sélectionner un dataset"
+            }
+          },
+          "checkbox": {
+            "scenarioMaster" : {
+              "label": "Master"
+            }
+          },
+          "button": {
+            "create": "Créer",
+            "cancel": "Annuler"
+          }
+        }
+      }
+    }
+  },
+  "genericcomponent": {
+    "uploadfile": {
+      "button": {
+        "browse": "Parcourir",
+        "update": "Mettre à jour"
+      },
+      "tooltip": {
+        "isvalidfile": "Erreur: la colonne requiert une chaine de caractères"
+      },
+      "mass_action_lever": {
+        "download": "Téléchager le dataset depuis ADT",
+        "generate": "Générer le lien de téléchargement"
+      }
+    },
+    "loading": {
+      "line": {
+        "workspace" : {
+          "current" : {
+            "title" : "Chargement du workspace"
+          }
+        },
+        "solution" : {
+          "current" : {
+            "title" : "Chargement de la solution"
+          }
+        },
+        "dataset" : {
+          "list" : {
+            "title" : "Chargement de la liste des datasets"
+          }
+        },
+        "scenario": {
+          "list" : {
+            "title" : "Chargement de la liste des scénarios"
+          },
+          "current": {
+            "title" : "Mise en place du scénario courant"
+          }
+        },
+        "powerbi": {
+          "title" : "Connexion à PowerBI"
+        },
+        "runtemplate": {
+          "list" : {
+            "title": "Chargement des types de scénarios"
+          }
+        }
+      }
+    },
+    "button": {
+      "login": {
+        "msal": {
+          "title": "Se connecter avec Microsoft"
+        }
+      },
+      "download": {
+        "dataset": "Télécharger le jeu de données depuis ADT"
+      }
+    },
+    "userinfo": {
+      "button": {
+        "change": {
+          "language": "Changer la langue"
+        },
+        "download": {
+          "documentation": "Télécharger la documentation"
+        },
+        "logout": "Se déconnecter"
+      }
+    },
+    "dialog" : {
+      "scenario" : {
+        "parameters" : {
+          "button": {
+            "cancel": "Annuler",
+            "validate": "Abandonner"
+          },
+           "title" : "Abandonner les modifications ?",
+           "body": "Vous allez perdre toutes les modifications que vous avez faites sur les paramètres de scénario."
+        }
+      }
+    },
+    "text": {
+      "scenario": {
+        "parameters": {
+          "placeholder": "Aucun paramètre à éditer.",
+          "title": "Paramètres de scénario",
+          "time_configuration": {
+            "start_date": "Date de début",
+            "end_date": "Date de fin",
+            "date_boundaries_error": "La date de début de la simulation doit être avant la date de fin de la simulation",
+            "simulation_granularity": "Pas de temps de la simulation"
+          },
+          "units": {
+            "min": "Minute",
+            "hour": "Heure",
+            "day": "Jour",
+            "week": "Semaine",
+            "month": "Mois",
+            "quarter": "Trimestre",
+            "year": "Année"
+          },
+          "optimization_configuration" : {
+            "flow_mode": {
+              "title": "Choix du mode d'écoulement des flux",
+              "tooltip": "Par défaut le modèle pousse automatiquent les flux à chaque pas de temps à l'étape suivante (s'il y a suffisament de stocks amont et de capacité de production disponibles). Cette option permet de passer à un mode de flux tirés grâce auquel l'optimisation peut conserver des pièces dans un stock pendant autant de temps que nécessaire pour maximiser l'objectif final visé.",
+              "pushed_flows": "Flux poussés",
+              "pulled_flows": "Flux tirés"
+            },
+            "optimization_objective": {
+              "service_level_maximization": "Maximisation du taux de service",
+              "profit_maximization": "Maximisation du profit",
+              "title": "Objectif de l'optimisation",
+              "tooltip": "Objectif poursuivi par l'optimisation automatique"
+            }
+          },
+          "uncertainty": {
+            "distribution": {
+              "gaussian": "Gaussienne",
+              "uniform": "Uniforme",
+              "title": "Loi de probabilité pour les incertitudes",
+              "tooltip": "Sélectionnez la loi de probabilité utilisée pour les incertitudes"
+            }
+          },
+          "behavior": {
+            "manage_backlog": {
+              "title": "Prise en compte des retards de service de la demande",
+              "tooltip": "Activer la capacité de garder en mémoire les quantités non servies en totalité et à temps puis de les servir dès que possible"
+            },
+            "obsolete_stock": {
+              "title": "Suppression automatique des stocks obsolètes",
+              "tooltip": "Si activé : le modèle supprimera automatiquement les stocks pendant la simulation lorsqu'il n'y aura plus de demande"
+            },
+            "batch_size": {
+              "title": "Taille de lot",
+              "tooltip": "Multiple à observer en fin d'opération de production avant de pouvoir passer à l'opération suivante (la valeur par défaut est 0 ce qui signifie aucune contrainte de taille de lot) - S'applique à toutes les opérations de production."
+            },
+            "financial_cost": {
+              "title": "Coût financier des stocks",
+              "tooltip": "Coût financier dû au cash immobilisé en stock (ratio entre 0 et 1 appliqué à la valeur de stock pour chaque pas de temps)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "views": {
+    "common": {
+      "footer": {
+        "text": {
+          "companyname": "Cosmo Tech",
+          "poweredby": "Propulsé par Cosmo Tech"
+        }
+      },
+      "text": {
+        "loading": "Chargement..."
+      }
+    },
+    "signin": {
+      "title": "Cosmo Tech Supply Chain"
+    },
+    "unauthorized": {
+      "scenario": {
+        "specialists": {
+          "title": "Spécialistes des jumeaux numériques"
+        }
+      },
+      "title": "Cosmo Tech Supply Chain"
+    },
+    "scenario": {
+      "dropdown": {
+        "scenario" : {
+          "label" : "Scénario",
+          "tooltip": {
+            "disabled": "Veuillez sauver ou annuler les modifications en cours avant de sélectionner un autre scénario"
+          }
+        }
+      },
+      "text" : {
+        "scenariotype" : "Type de scénario"
+      }
+    }
+  },
+  "layouts": {
+    "tabs": {
+      "scenario": {
+        "tab": {
+          "title": "Vue scénario"
+        }
+      },
+      "scenariomanager": {
+        "tab": {
+          "title": "GESTIONNAIRE DE SCENARIOS"
+        }
+      },
+      "dashboards": {
+        "tab": {
+          "title": "Tableaux de bord"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "commoncomponents": {
+    "button": {
+      "login": {
+        "dev": {
+          "account": {
+            "login": "Sign in with Dev mode"
+          }
+        },
+        "regular": {
+          "login": "Sign In"
+        }
+      },
+      "run": {
+        "protocol": {
+          "text": "Run protocol"
+        },
+        "scenario": {
+          "text": "Run scenario"
+        }
+      },
+      "change": {
+        "language": "Change language"
+      },
+      "create": {
+        "scenario": {
+          "label": "Create new scenario",
+          "tooltip": {
+            "disabled": "Please save or discard current modifications before creating a new scenario"
+          }
+        }
+      },
+      "scenario": {
+        "parameters": {
+          "discard": "Discard Modifications",
+          "edit": "Edit",
+          "launch": "Launch Scenario",
+          "update": {
+            "launch": "Update And Launch Scenario"
+          }
+        }
+      }
+    },
+    "card": {
+      "protocol": {
+        "parameters": {
+          "text": {
+            "driver": {
+              "name": "Driver name"
+            },
+            "population": {
+              "size": "Population size"
+            },
+            "total": {
+              "simulations": "Total simulations"
+            }
+          },
+          "title": {
+            "protocol": {
+              "parameters": "Protocol parameters"
+            }
+          }
+        }
+      },
+      "simulation": {
+        "parameters": {
+          "text": {
+            "alert": {
+              "simulation": {
+                "launched": "Simulation successfully launched"
+              }
+            },
+            "engine": {
+              "name": "Engine name"
+            },
+            "simulation": {
+              "name": "Simulation name"
+            }
+          },
+          "title": {
+            "simulation": {
+              "parameters": "Engine parameters"
+            }
+          }
+        }
+      }
+    },
+    "iframe": {
+      "scenario": {
+        "results": {
+          "card": {
+            "title": "Results"
+          },
+          "iframe": {
+            "title": "Supply Chain results"
+          },
+          "label": {
+            "no": {
+              "result": "No dashboards for this scenario."
+            },
+            "error": "An error occured during the scenario run",
+            "running": "Scenario run in progress...",
+            "uninitialized": "The scenario has not been run yet"
+          },
+          "button": {
+            "downloadlogs": "Download logs",
+            "refresh": "Refresh (will then be disabled for 15 seconds)"
+          }
+        },
+        "noscenario": {
+          "title": "No scenario yet",
+          "label": "You can create a scenario by clicking on"
+        },
+        "error": {
+          "unknown": {
+            "details": "Something went wrong when fetching PowerBI reports info",
+            "label": "Unknown error"
+          }
+        }
+      }
+    },
+    "scenariomanager": {
+      "treelist": {
+        "node": {
+          "dataset": "Dataset",
+          "dataset_plural": "Datasets",
+          "status": {
+            "label": "Run status",
+            "successful": "Successful",
+            "failed": "Failed",
+            "created": "Created"
+          },
+          "text": {
+            "search": "Search"
+          }
+        },
+        "search": {
+          "info": "{{count}} scenario found",
+          "info_plural": "{{count}} scenarios found"
+        }
+      }
+    },
+    "tab": {
+      "scenario": {
+        "parameters": {
+          "time_configuration": "Time configuration",
+          "mass_action_lever": "Mass action lever",
+          "optimization_configuration": "Optimization settings",
+          "uncertainty_configuration": "Uncertainties settings",
+          "behavior_configuration": "Model behavior configuration"
+        }
+      }
+    },
+    "text": {
+      "application": {
+        "title": "Cosmo Tech Supply Chain"
+      },
+      "contact": {
+        "get": {
+          "account": "Don't have an account?"
+        }
+      },
+      "link": {
+        "cosmotech": "Please contact Cosmo Tech"
+      },
+      "no": {
+        "permission": "You don't have permission to view this page."
+      }
+    },
+    "dialog": {
+      "confirm": {
+        "delete": {
+          "button": {
+            "cancel": "Cancel",
+            "confirm": "Confirm"
+          },
+          "description": "This operation is irreversible. Dataset(s) will not be removed, but the scenario parameters will be lost. If this scenario has children, they will be moved to a new parent. The new parent will be the parent of the deleted scenario.",
+          "title": "Remove selected scenario?"
+        }
+      },
+      "create": {
+        "scenario": {
+          "text": {
+            "title": "Create new scenario"
+          },
+          "input" : {
+            "scenarioname": {
+              "label": "Scenario name",
+              "error": {
+                "label" : "Error",
+                "empty" : "Scenario name cannot be empty",
+                "existing": "Scenario name already exists",
+                "forbiddenchars": "Scenario name has to start with a letter, and can only contains letters, digits, spaces, underscores and hyphens."
+              }
+            }
+          },
+          "dropdown": {
+            "parentscenario": {
+              "label": "Parent Scenario",
+              "placeholder": "Select a parent Scenario"
+            },
+            "scenariotype": {
+              "label": "Run Type",
+              "placeholder": "Select a run Type"
+            },
+            "dataset": {
+              "label": "Dataset",
+              "placeholder": "Select a dataset"
+            }
+          },
+          "checkbox": {
+            "scenarioMaster" : {
+              "label": "Master"
+            }
+          },
+          "button": {
+            "create": "Create",
+            "cancel": "Cancel"
+          }
+        }
+      }
+    }
+  },
+  "genericcomponent": {
+    "uploadfile": {
+      "button": {
+        "browse": "Browse",
+        "update": "Update"
+      },
+      "tooltip": {
+        "isvalidfile": "Error: column name must be a string"
+      },
+      "mass_action_lever": {
+        "download": "Download dataset from ADT",
+        "generate": "Generate download link"
+      }
+    },
+    "loading": {
+      "line": {
+        "workspace" : {
+          "current" : {
+            "title" : "Loading workspace"
+          }
+        },
+        "solution" : {
+          "current" : {
+            "title" : "Loading solution"
+          }
+        },
+        "dataset" : {
+          "list" : {
+            "title" : "Loading dataset list"
+          }
+        },
+        "scenario": {
+          "list" : {
+            "title" : "Loading scenario list"
+          },
+          "current": {
+            "title" : "Setting current scenario"
+          }
+        },
+        "powerbi": {
+          "title" : "Connecting to PowerBI"
+        },
+        "runtemplate": {
+          "list" : {
+            "title": "Loading run types"
+          }
+        }
+      }
+    },
+    "button": {
+      "login": {
+        "msal": {
+          "title": "Sign in with Microsoft"
+        }
+      },
+      "download": {
+        "dataset": "Download dataset from ADT"
+      }
+    },
+    "userinfo": {
+      "button": {
+        "change": {
+          "language": "Change language"
+        },
+        "download": {
+          "documentation": "Download documentation"
+        },
+        "logout": "Sign out"
+      }
+    },
+    "dialog" : {
+      "scenario" : {
+        "parameters" : {
+          "button": {
+            "cancel": "Cancel",
+            "validate": "Discard"
+          },
+          "title" : "Discard current modifications ?",
+          "body": "You will lose all your current changes made on the scenario parameters."
+        }
+      }
+    },
+    "text": {
+      "scenario": {
+        "parameters": {
+          "placeholder": "No parameters to edit.",
+          "title": "Scenario parameters",
+          "time_configuration": {
+            "start_date": "Start date",
+            "end_date": "End date",
+            "date_boundaries_error": "The simulation start date must be before the simulation end date",
+            "simulation_granularity": "Simulation granularity"
+          },
+          "units": {
+            "min": "Minute",
+            "hour": "Hour",
+            "day": "Day",
+            "week": "Week",
+            "month": "Month",
+            "quarter": "Quarter",
+            "year": "Year"
+          },
+          "optimization_configuration" : {
+            "flow_mode": {
+              "title": "Choice of flow mode",
+              "tooltip": "By default, the model automatically pushes the flows at each time step to the next step (if there are sufficient upstream stocks and production capacity available). This option allows switching to a pulled flows mode where optimization can keep parts in inventory for as long as needed to maximize the end goal.",
+              "pushed_flows": "Pushed flows",
+              "pulled_flows": "Pulled flows"
+            },
+            "optimization_objective": {
+              "service_level_maximization": "Service level maximization",
+              "profit_maximization": "Profit maximization",
+              "title": "Optimization objective",
+              "tooltip": "Objective pursued by automatic optimization"
+            }
+          },
+          "uncertainty": {
+            "distribution": {
+              "gaussian": "Gaussian",
+              "uniform": "Uniform",
+              "title": "Uncertainties probability distribution law",
+              "tooltip": "Select the type of probability distribution used for uncertainties"
+            }
+          },
+          "behavior": {
+            "manage_backlog": {
+              "title": "Track and serve backlog orders",
+              "tooltip": "Activate the ability to keep in memory the quantities not served in full on time and to serve them as soon as possible"
+            },
+            "obsolete_stock": {
+              "title": "Automatic obsolete stock deletion",
+              "tooltip": "If activated: model will automatically delete stocks during simulation when no further demand exists"
+            },
+            "batch_size": {
+              "title": "Batch size",
+              "tooltip": "Multiple to be observed at the end of production operation before being able to move on to the next operation (default value is 0 which means no batch size constraint) - Is applied to all production operations."
+            },
+            "financial_cost": {
+              "title": "Financial cost of stock",
+              "tooltip": "Cost of the financial asset due to inventory (ratio between 0 and 1 applied to inventory value for each time step)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "views": {
+    "common": {
+      "footer": {
+        "text": {
+          "companyname": "Cosmo Tech",
+          "poweredby": "Powered by Cosmo Tech"
+        }
+      },
+      "text": {
+        "loading": "Loading..."
+      }
+    },
+    "signin": {
+      "title": "Cosmo Tech Supply Chain"
+    },
+    "unauthorized": {
+      "scenario": {
+        "specialists": {
+          "title": "Scenario Specialists"
+        }
+      },
+      "title": "Cosmo Tech Supply Chain"
+    },
+    "scenario": {
+      "dropdown": {
+        "scenario" : {
+          "label" : "Scenario",
+          "tooltip": {
+            "disabled": "Please save or discard current modifications before selecting another scenario"
+          }
+        }
+      },
+      "text" : {
+        "scenariotype" : "Run type"
+      }
+    }
+  },
+  "layouts": {
+    "tabs": {
+      "scenario": {
+        "tab": {
+          "title": "SCENARIO VIEW"
+        }
+      },
+      "scenariomanager": {
+        "tab": {
+          "title": "SCENARIO MANAGER"
+        }
+      },
+      "dashboards": {
+        "tab": {
+          "title": "Dashboards"
+        }
+      }
+    }
+  }
+}
